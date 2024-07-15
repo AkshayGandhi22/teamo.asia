@@ -1,5 +1,12 @@
 document.getElementById('currentYear').textContent = new Date().getFullYear();
 
+$(document).ready(function() {
+    $('.navbar-toggler').on('click', function() {
+        $('body').toggleClass('overflow-hidden');
+    });
+});
+
+
 $(function () {
     var bannerCarousel = $('.relaxWithSportsImg');
 

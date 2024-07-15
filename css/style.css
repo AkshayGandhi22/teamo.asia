@@ -28,6 +28,10 @@ img{ max-width: 100%;}
 .marT30{ margin-top: var(--pad30);}
 img{ height: 100%; object-fit: contain;}
 
+.overflow-hidden {
+    overflow: hidden;
+}
+
 h1{ font-size: var(--font60); color: var(--white); line-height: 1.2; margin: 0; margin-bottom: 20px; font-weight: 400;}
 h2{ font-size: var(--font100); color: var(--blue); line-height: 1; margin: 0;    font-family: 'Sepeda Janda';}
 h3{ font-size: var(--font45); color: var(--brown); line-height: 1.2; margin: 0;  font-weight: 700;}
@@ -50,7 +54,7 @@ p{ margin: 0; font-size: var(--font22); color: var(--black); }
 .newsLetter p{ font-size: var(--font18);}
 .footerSection{ background-color: var(--black); padding: var(--pad30);}
 .newsLetterInput{ display: flex; margin-top: 10px;}
-.newsLetterInput input{ width: 100%; padding: 10px; border: 1px solid var(--gray); font-weight: var(--font18); color: var(--white); background-color: transparent; }
+.newsLetterInput input{ width: 100%; padding: 10px; border: 1px solid var(--gray); font-weight: var(--font18); color: var(--white); background-color: transparent; border-radius: 0;}
 .newsLetterInput button{ width: 100%; padding: 10px; border: 1px solid var(--gray); font-weight: var(--font18); color: var(--white); background-color: var(--orange);  max-width: 160px; border-radius: 0;}
 
 .copyrightSection{ background-color: var(--orange); padding: 10px 0;}
@@ -152,4 +156,6 @@ p{ margin: 0; font-size: var(--font22); color: var(--black); }
     .smoothOutDoorsTitle ul{ column-count: 1; text-align: center;}
     .smoothOutDoorsTitle{ text-align: center;}
     .footerLogo img{ height: 150px; margin-bottom: 20px;}
+    .newsLetterInput{ flex-direction: column; }
+    .newsLetterInput button{ max-width: 100%;}
 }
