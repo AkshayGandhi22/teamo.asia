@@ -112,6 +112,11 @@ p{ margin: 0; font-size: var(--font22); color: var(--black); }
 .smoothOutDoorsSection::before{ content: ""; position: absolute; top: 50px; border-bottom: 0; left: 0; margin: auto; width: 100%; height: calc(100% - 50px); background: url(../images/smoothOutdoors.svg)no-repeat; background-size: contain; background-position:left center;}
 .smoothOutDoorsSection::after{ content: ""; position: absolute; top: 50px; border-bottom: 0; left: 0; margin: auto; width: 100%; height: calc(100% - 50px); background: url(../images/smoothOutdoors.svg)no-repeat; background-size: contain; background-position:left center; transform: scaleX(-1);}
 
+.whyChooseSectionServicesBoxes .row{ gap: 30px 0;}
+.whyChooseSectionServices{ max-width: 500px; margin: 0 auto;}
+.whyChooseSectionServices img{ height: 100px; object-fit: contain; }
+.whyChooseSectionContent h5{ margin: 10px 0;}
+
 @media (max-width: 991.98px){
     :root{
         --font22:16px;
