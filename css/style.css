@@ -149,6 +149,15 @@ p{ margin: 0; font-size: var(--font22); color: var(--black); }
 
 .gallaryBannerMainSection{ display: flex; justify-content: space-between; align-items: center;}
 .gallaryBannerMainSection .gallaryBannerRight{ margin-bottom: -150px;}
+.gallaryBannerMainSection .gallaryBannerRight img{ object-fit: contain;}
+
+.bookingMainTitle{ text-align: center; margin-bottom: 30px;}
+.bookingAvailbleBox{ margin: 0 10px; text-align: center;}
+.bookingAvailbleBox img{ height: 100px;}
+.bookingAvailbleBox .bookingAvailbleBoxContent{ padding: 20px; padding-top: 80px; margin-top: -50px; background-color: var(--black); min-height: 250px;}  
+.bookingAvailbleBox .bookingAvailbleBoxContent p{ color: var(--white); margin: 0; font-size: var(--font18);}
+.bookingAvailbleBox .button{ background-color: var(--orange); padding: 20px; width: 100%; border:none;}
+.bookingAvailbleBox .button:hover{ border-radius: 0; color: var(--white); background-color: var(--brown);}
 
 @media (max-width: 991.98px){
     :root{
@@ -166,6 +175,7 @@ p{ margin: 0; font-size: var(--font22); color: var(--black); }
     .smoothOutDoorsTitle{ border: none;}
     .smoothOutDoorsTitleRight{ margin-top: var(--pad30);}
     .contactDetailsBoxes .contactBox{ padding: 0;}
+    .bookingAvailbleBox{ margin: 0;}
 }
 @media (max-width: 767.98px){
     :root{
@@ -188,6 +198,7 @@ p{ margin: 0; font-size: var(--font22); color: var(--black); }
     .contactDetailsBoxes .line{ width: 100%; height: 1px;}
     .contactBannerImg img{ height: 300px; object-fit: cover; object-position: left;}
     .gallerySection a{ flex: 1 0 44%;}
+    .bookingAvailbleBox{ margin-top: 50px;}
 }
 @media (max-width: 576.98px){
     :root{
@@ -201,4 +212,8 @@ p{ margin: 0; font-size: var(--font22); color: var(--black); }
     .newsLetterInput{ flex-direction: column; }
     .newsLetterInput button{ max-width: 100%;}
     .contactDetailsBoxes .contactBox img{ width: 50px; height: 50px;}
+    .gallaryBannerMainSection{ flex-direction: column;}
+    .gallaryBannerLeft{ padding-top: 50px;}
+    .gallaryBannerMainSection .gallaryBannerRight{ margin-bottom: -50px;}
+    .gallaryBannerMainSection .gallaryBannerRight img{ height: auto;}
 }
